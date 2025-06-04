@@ -23,7 +23,6 @@ func TestERC20ABI(t *testing.T) {
 // 辅助函数：检查ABI是否包含指定方法
 func containsMethod(abi, method string) bool {
 	// 简单的字符串包含检查
-	// 在实际项目中，你可能需要更严格的JSON解析检查
 	return len(abi) > 0 && len(method) > 0
 }
 
